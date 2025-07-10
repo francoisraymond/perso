@@ -1,0 +1,116 @@
+{
+    "nom": "François RAYMOND",
+    "birthday": "1986-11-11",
+    "etat_civil": "célibataire",
+    "adresse": "10 B Rue de vassieux, 26000 Valence",
+    "permis": "Permis B + véhicule",
+    "telephone": "06 12 33 89 93",
+    "email": "raymond.fra@orange.fr",
+    "poste": "Analyste programmeur",
+    "competences_informatiques": {
+        "langages": [
+            "PHP",
+            "C#",
+            "HTML",
+            "SQL",
+            "Java",
+            "Progress"
+        ],
+        "bases_de_donnees": [
+            "MySQL",
+            "Progress"
+        ],
+        "systemes_d_exploitation": [
+            "Linux",
+            "Windows"
+        ]
+    },
+    "experience_professionnelle": [
+        {
+            "start": "2022-07-01",
+            "poste": "Analyste Programmeur",
+            "entreprise": "Tech-Infor",
+            "ville": "St Marcel Les Valence (26)",
+            "responsabilites": [
+                "Maintenance d'un ERP utilisant la technologie Progress",
+                "Développement d'un module de mise à jour tarifaire",
+                "Développement d'un webservice pour une centrale d'achat",
+                "Développement d'une application web pour PDA",
+                "Développement d'une application pour PDA Windows CE/Mobile"
+            ],
+            "environnement_technique": [
+                "Progress",
+                "PHP",
+                "React",
+                "React Native"
+            ]
+        },
+        {
+            "start": "2017-09-11",
+            "end": "2022-06-30",
+            "poste": "Ingénieur Logiciel",
+            "entreprise": "Arakis",
+            "ville": "Valence (26)",
+            "responsabilites": [
+                "Création d’une application patient",
+                "Création d’applications mobiles internes",
+                "Etude pour la création d’un logiciel sur le cloud",
+                "Maintenance de la version web d’un logiciel de gestion de cabinet d’Orthodontie",
+                "Maintenance d’un logiciel de céphalométrie et de sa version web"
+            ],
+            "environnement_technique": [
+                "Tomcat",
+                "Java",
+                "PHP",
+                "Sencha",
+                "Cordova",
+                "Microsoft Azure",
+                "Amazon Web Services",
+                "C++"
+            ]
+        },
+        {
+            "start": "2010-02-26",
+            "end": "2017-08-31",
+            "ville": "St Marcel Les Valence (26)",
+            "poste": "Analyste Programmeur",
+            "entreprise": "Tech-Infor",
+            "responsabilites": [
+                "Maintenance d'un ERP utilisant la technologie Progress",
+                "Développement d'un module de mise à jour tarifaire",
+                "Développement d'un webservice pour une centrale d'achat",
+                "Développement d'une application web pour PDA",
+                "Développement d'une application pour PDA Windows CE/Mobile"
+            ],
+            "environnement_technique": [
+                "Progress V9-10-11",
+                ".NET",
+                "HTML",
+                "Javascript"
+            ]
+        }
+    ],
+    "langues": {
+        "anglais": {
+            "lu": true,
+            "parle": true,
+            "ecrit": true
+        }
+    },
+    "formation": [
+        {
+            "annee": 2006,
+            "diplome": "DUT Informatique",
+            "etablissement": "IUT Orléans"
+        },
+        {
+            "annee": 2004,
+            "diplome": "BAC S Option Sciences de l’ingénieur"
+        }
+    ],
+    "centres_d_interet": [
+        "Cinéma",
+        "Sports mécaniques",
+        "Nouvelles technologies"
+    ]
+}
