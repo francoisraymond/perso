@@ -1,0 +1,32 @@
+.formation {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #FFC600;
+    margin-bottom: 10px;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.7);
+
+    .diplome {
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 5px;
+        flex: 1;
+        text-align: center;
+    }
+
+    .etablissement {
+        font-style: italic;
+        color: #555;
+        margin-bottom: 5px;
+        width: 125px;
+    }
+
+    .annee {        
+        font-size: 24px;
+        width: 75px;
+    }
+}

@@ -1,31 +1,35 @@
 {
-    "nom": "François RAYMOND",
+    "nom": "RAYMOND",
+    "prenom": "François",
+    "sexe": "Homme",
     "birthday": "1986-11-11",
     "etat_civil": "célibataire",
-    "adresse": "10 B Rue de vassieux, 26000 Valence",
+    "adresse": "10 B Rue de vassieux",
+    "code_postal": "26000",
+    "ville": "Valence",
     "permis": "Permis B + véhicule",
     "telephone": "06 12 33 89 93",
     "email": "raymond.fra@orange.fr",
     "poste": "Analyste programmeur",
-    "competences_informatiques": {
-        "langages": [
-            "PHP",
-            "C#",
-            "HTML",
-            "SQL",
-            "Java",
-            "Progress"
-        ],
-        "bases_de_donnees": [
-            "MySQL",
-            "Progress"
-        ],
-        "systemes_d_exploitation": [
-            "Linux",
-            "Windows"
-        ]
-    },
-    "experience_professionnelle": [
+    "competences": [
+        {
+            "titre": "Développement",
+            "description": "Développement d'applications web et mobiles, maintenance de logiciels existants, création de webservices."
+        },
+        {
+            "titre": "Analyse et Conception",
+            "description": "Analyse des besoins clients, conception de solutions logicielles adaptées."
+        },
+        {
+            "titre": "Gestion de projet",
+            "description": "Planification et suivi de projets informatiques, coordination avec les équipes techniques et clients."
+        },
+        {
+            "titre": "Support Technique",
+            "description": "Assistance technique aux utilisateurs, résolution de problèmes techniques."
+        }
+    ],
+    "experience": [
         {
             "start": "2022-07-01",
             "poste": "Analyste Programmeur",
@@ -90,14 +94,21 @@
             ]
         }
     ],
-    "langues": {
-        "anglais": {
+    "langues": [
+        {
+            "langue": "Français",
+            "lu": true,
+            "parle": true,
+            "ecrit": true
+        },
+        {
+            "langue": "Anglais",
             "lu": true,
             "parle": true,
             "ecrit": true
         }
-    },
-    "formation": [
+    ],
+    "formations": [
         {
             "annee": 2006,
             "diplome": "DUT Informatique",
@@ -105,10 +116,11 @@
         },
         {
             "annee": 2004,
-            "diplome": "BAC S Option Sciences de l’ingénieur"
+            "diplome": "BAC S Option Sciences de l’ingénieur",
+            "etablissement": ""
         }
     ],
-    "centres_d_interet": [
+    "interets": [
         "Cinéma",
         "Sports mécaniques",
         "Nouvelles technologies"

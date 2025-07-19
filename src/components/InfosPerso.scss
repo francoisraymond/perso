@@ -1,0 +1,182 @@
+.infos {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+
+    .general {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 20px;
+        background-color: #072AC8;
+        color: #fff;
+        width: 20vw;
+
+        .photo {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+
+            img {
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+                object-fit: cover;
+                border: 2px solid #ccc;
+                box-shadow: 3px 5px 5px rgba(255, 255, 255, 0.5);
+            }
+        }
+
+        .nom_complet {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 24px;
+
+            .nom {
+                margin-bottom: 10px;
+                margin-right: 5px;
+            }
+
+            .prenom {
+                font-style: italic;
+                margin-bottom: 10px;
+            }
+        }
+
+        .details {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-bottom: 20px;
+
+            .age {
+                font-size: 18px;
+            }
+
+            .sexe,
+            .etat_civil,
+            .permis {
+                font-size: 16px;
+            }
+        }
+
+        .contact {
+            display: flex;
+            flex-direction: column;
+            justify-content: stretch;
+            margin-bottom: 20px;
+            font-size: 16px;
+            margin-bottom: 5px;
+
+            .postal {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                margin-bottom: 5px;
+
+                .code_postal {
+                    margin-right: 5px;
+                }
+            }
+        }
+
+        .langues {
+            margin-bottom: 10px;
+
+            h2 {
+                font-size: 20px;
+                margin-bottom: 10px;
+            }
+        }
+
+        .experiences {
+            margin-bottom: 10px;
+
+            h1 {
+                font-size: 20px;
+                margin-bottom: 10px;
+            }
+        }
+
+        .formation {
+            margin-bottom: 10px;
+
+            h1 {
+                font-size: 20px;
+                margin-bottom: 10px;
+            }
+        }
+
+        .interets {
+            margin-bottom: 10px;
+
+            h2 {
+                font-size: 20px;
+                margin-bottom: 10px;
+            }
+        }
+
+        .competences {
+            margin-bottom: 10px;
+
+            h2 {
+                font-size: 20px;
+                margin-bottom: 10px;
+            }
+        }
+
+    }
+
+    .principal {
+        display: flex;
+        flex-direction: column;
+        justify-content: stretch;
+        flex: 1;
+
+        .formations {
+            display: flex;
+            flex-direction: column;
+            justify-content: stretch;
+            padding: 20px;
+            background-color: #FCF300;
+            min-height: 0;
+
+            h1{
+                font-size: 24px;
+                margin-bottom: 20px;                                
+            }
+
+            .formations-list {
+                display: flex;
+                flex-direction: column;
+                justify-content: stretch;
+                min-height: 0;
+            }
+        }
+
+        .experiences {
+            display: flex;
+            background-color: #A2D6F9;
+            flex-direction: column;
+            justify-content: stretch;
+            flex: 1;
+            min-height: 0;
+            padding: 20px;
+
+            .experiences-list {
+                display: flex;
+                flex-direction: column;
+                justify-content: stretch;
+                flex: 1;
+                overflow: auto;
+                min-height: 0;
+            }
+        }
+    }
+}

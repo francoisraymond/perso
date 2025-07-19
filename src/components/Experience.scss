@@ -1,0 +1,26 @@
+.experience{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #1E96FC;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.7);
+
+    .poste {
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 5px;
+    }
+
+    .entreprise {
+        font-style: italic;
+        color: #555;
+        margin-bottom: 5px;
+    }
+
+    .periode {
+        color: #999;
+        font-size: 14px;
+    }
+}
